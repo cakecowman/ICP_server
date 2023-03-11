@@ -1,5 +1,5 @@
 #Server main settings
-server_name: My Server Name
+server_name: Insecure Containment Protectors
 #default - uses server_name
 player_list_title: default
 player_list_title_rate: default
@@ -14,14 +14,14 @@ ipv6_bind_ip: ::
 contact_email: default
 
 #Spawn settings
-minimum_MTF_time_to_spawn: 280
-maximum_MTF_time_to_spawn: 350
+minimum_MTF_time_to_spawn: 200
+maximum_MTF_time_to_spawn: 270
 maximum_MTF_respawn_amount: 15
 maximum_CI_respawn_amount: 15
 priority_mtf_respawn: true
 use_crypto_rng: false
 team_respawn_queue: default
-late_join_time: 0
+late_join_time: 20
 
 ## Player Info Range ##
 # This controls the default range that the player information text appears on clients.

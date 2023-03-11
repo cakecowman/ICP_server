@@ -43,7 +43,7 @@ CommonUtilities:
   # Whether or not friendly fire should automatically turn on when a round ends (it will turn itself back off before the next round starts).
   friendly_fire_on_round_end: false
   # The multiplier applied to radio battery usage. Set to 0 to disable radio battery drain.
-  radio_battery_drain_multiplier: 1
+  radio_battery_drain_multiplier: .5
   # The color to use for lights while the warhead is active.
   warhead_color:
     r: 1
@@ -51,7 +51,7 @@ CommonUtilities:
     b: 0.2
     a: 1
   # The maximum time, in seconds, that a player can be AFK before being kicked. Set to -1 to disable AFK system.
-  afk_limit: 120
+  afk_limit: 300
   # The roles that are ignored by the AFK system.
   afk_ignored_roles:
   - Scp079
