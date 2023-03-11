@@ -1,8 +1,0 @@
-2023-03-08 02:09:27.718Z | Internal            | Logger         | Started logging. Game version: 12.0.2, private beta: NO.
-2023-03-08 02:20:09.899Z | Connection update   | Networking     | 76561198059487799@steam preauthenticated from endpoint 76.144.31.151:52764.
-2023-03-08 02:20:25.269Z | Connection update   | Networking     | 76561198059487799@steam authenticated from endpoint 76.144.31.151:52764. Player ID assigned: 2. Auth token serial number: rcjGQgrqKdIfQ5qZ
-2023-03-08 02:20:25.336Z | Connection update   | Networking     | Nickname of 76561198059487799@steam is now Cake_.
-2023-03-08 02:20:25.352Z | Connection update   | Permissions    | Cake_ (76561198059487799@steam) has been assigned to group SERVER OWNER.
-2023-03-08 02:26:38.074Z | Remote Admin - Misc | Administrative | SERVER CONSOLE reloaded configuration and permissions files.
-2023-03-08 02:26:43.237Z | Kill                | Class change   | Cake_ (76561198059487799@steam), playing as None, has died. Specific death reason: Unknown cause of death..
-2023-03-08 02:26:43.261Z | Connection update   | Networking     | Cake_ 76561198059487799@steam disconnected from IP address 76.144.31.151. Last class: Spectator (Spectator)
