@@ -1,0 +1,64 @@
+2023-03-08 07:50:08.094Z | Internal            | Logger         | Started logging. Game version: 12.0.2, private beta: NO.
+2023-03-08 07:50:14.117Z | Connection update   | Networking     | 76561198170133703@steam preauthenticated from endpoint 134.114.223.254:62883.
+2023-03-08 07:50:14.155Z | Connection update   | Networking     | 76561198040779291@steam preauthenticated from endpoint 185.216.201.36:49635.
+2023-03-08 07:50:14.561Z | Connection update   | Networking     | 76561198027561465@steam preauthenticated from endpoint 162.157.85.208:49554.
+2023-03-08 07:50:14.666Z | Connection update   | Networking     | 76561198069178724@steam preauthenticated from endpoint 73.220.221.251:49976.
+2023-03-08 07:50:14.807Z | Connection update   | Networking     | 76561198057006321@steam preauthenticated from endpoint 73.66.121.218:58575.
+2023-03-08 07:50:15.442Z | Connection update   | Networking     | 76561198129048837@steam preauthenticated from endpoint 68.59.76.46:57937.
+2023-03-08 07:50:15.478Z | Connection update   | Networking     | 76561198059487799@steam preauthenticated from endpoint 76.144.31.151:61498.
+2023-03-08 07:50:16.080Z | Connection update   | Networking     | 76561198049007127@steam preauthenticated from endpoint 65.99.39.41:65128.
+2023-03-08 07:50:20.986Z | Connection update   | Networking     | 76561198027561465@steam authenticated from endpoint 162.157.85.208:49554. Player ID assigned: 24. Auth token serial number: 2It1qq4P3nJBJfL5
+2023-03-08 07:50:21.037Z | Connection update   | Networking     | Nickname of 76561198027561465@steam is now Affle.
+2023-03-08 07:50:21.056Z | Connection update   | Networking     | 76561198170133703@steam authenticated from endpoint 134.114.223.254:62883. Player ID assigned: 25. Auth token serial number: Sa5TTWWNlvCHtaXa
+2023-03-08 07:50:21.120Z | Connection update   | Networking     | 76561198040779291@steam authenticated from endpoint 185.216.201.36:49635. Player ID assigned: 1. Auth token serial number: yGVh9SuuriuCBBSa
+2023-03-08 07:50:21.154Z | Connection update   | Networking     | Nickname of 76561198170133703@steam is now SpectaKoo.
+2023-03-08 07:50:21.222Z | Connection update   | Networking     | Nickname of 76561198040779291@steam is now [FERNO].
+2023-03-08 07:50:21.222Z | Connection update   | Networking     | Player [connId=3] (CharacterClassManager)) connected from IP 185.216.201.36 sent Do Not Track signal.
+2023-03-08 07:50:21.569Z | Connection update   | Networking     | 76561198069178724@steam authenticated from endpoint 73.220.221.251:49976. Player ID assigned: 15. Auth token serial number: 7VCNX7YDusxSjR2B
+2023-03-08 07:50:21.636Z | Connection update   | Networking     | Nickname of 76561198069178724@steam is now Cole.
+2023-03-08 07:50:23.051Z | Connection update   | Networking     | 76561198059487799@steam authenticated from endpoint 76.144.31.151:61498. Player ID assigned: 11. Auth token serial number: o087AAfHGJtNBEid
+2023-03-08 07:50:23.101Z | Connection update   | Networking     | Nickname of 76561198059487799@steam is now Cake_.
+2023-03-08 07:50:23.103Z | Connection update   | Permissions    | Cake_ (76561198059487799@steam) has been assigned to group SERVER OWNER.
+2023-03-08 07:50:23.161Z | Connection update   | Networking     | 76561198057006321@steam authenticated from endpoint 73.66.121.218:58575. Player ID assigned: 23. Auth token serial number: Hf7EWY9RENARWIzR
+2023-03-08 07:50:23.245Z | Connection update   | Networking     | Nickname of 76561198057006321@steam is now Voidpuddle.
+2023-03-08 07:50:23.245Z | Connection update   | Networking     | Player [connId=5] (CharacterClassManager)) connected from IP 73.66.121.218 sent Do Not Track signal.
+2023-03-08 07:50:24.235Z | Connection update   | Networking     | 76561198049007127@steam authenticated from endpoint 65.99.39.41:65128. Player ID assigned: 21. Auth token serial number: gVIohpEtps8jWecF
+2023-03-08 07:50:24.403Z | Connection update   | Networking     | Nickname of 76561198049007127@steam is now I AM STRANGLO.
+2023-03-08 07:50:24.405Z | Connection update   | Permissions    | I AM STRANGLO (76561198049007127@steam) has been assigned to group ADMIN.
+2023-03-08 07:50:24.822Z | Connection update   | Networking     | 76561198129048837@steam authenticated from endpoint 68.59.76.46:57937. Player ID assigned: 6. Auth token serial number: ZqzSww1HUQ35fnQw
+2023-03-08 07:50:24.956Z | Connection update   | Networking     | Nickname of 76561198129048837@steam is now Asmosnos.
+2023-03-08 07:50:24.956Z | Connection update   | Networking     | Player [connId=8] (CharacterClassManager)) connected from IP 68.59.76.46 sent Do Not Track signal.
+2023-03-08 07:51:06.366Z | Game Event          | Logger         | Round has been started.
+2023-03-08 07:52:39.550Z | Kill                | Class change   | Asmosnos (76561198129048837@steam), playing as Class-D Personnel, has been killed by Affle (76561198027561465@steam) playing as: SCP-173. Specific death reason: Died to SCP (Affle, Scp173).
+2023-03-08 07:53:04.561Z | Kill                | Class change   | Cole (76561198069178724@steam), playing as Class-D Personnel, has been killed by Affle (76561198027561465@steam) playing as: SCP-173. Specific death reason: Died to SCP (Affle, Scp173).
+2023-03-08 07:54:32.767Z | Kill                | Class change   | SpectaKoo (76561198170133703@steam), playing as Class-D Personnel, has been killed by [FERNO] (76561198040779291@steam) playing as: SCP-049. Specific death reason: Died to a heart-attack forced by SCP-049 ([FERNO])..
+2023-03-08 07:55:02.405Z | Game Event          | Class change   | Player Cole (76561198069178724@steam) respawned as NtfCaptain.
+2023-03-08 07:55:02.407Z | Game Event          | Class change   | Player Asmosnos (76561198129048837@steam) respawned as NtfSergeant.
+2023-03-08 07:55:02.408Z | Game Event          | Class change   | RespawnManager has successfully spawned 2 players as NineTailedFox!
+2023-03-08 07:57:18.011Z | Kill                | Class change   | I AM STRANGLO (76561198049007127@steam), playing as Facility Guard, has been killed by Affle (76561198027561465@steam) playing as: SCP-173. Specific death reason: Died to SCP (Affle, Scp173).
+2023-03-08 07:58:00.479Z | Kill                | Class change   | Asmosnos (76561198129048837@steam), playing as Nine-Tailed Fox Sergeant, has been killed by Affle (76561198027561465@steam) playing as: SCP-173. Specific death reason: Died to SCP (Affle, Scp173).
+2023-03-08 07:58:00.620Z | Remote Admin        | Administrative | I AM STRANGLO (76561198049007127@steam) broadcast text "<color=#FF00FF>WHY DIDN'T YOU MAKE ME A CHEESE MANS " to 1 players. Duration: 5 seconds. Affected players: [FERNO] (76561198040779291@steam). Broadcast Flag: Normal.
+2023-03-08 07:58:08.878Z | Game Event          | Warhead        | Cake_ (76561198059487799@steam) set the Alpha Warhead status to True.
+2023-03-08 07:59:32.403Z | Game Event          | Class change   | Player Asmosnos (76561198129048837@steam) respawned as NtfCaptain.
+2023-03-08 07:59:32.406Z | Game Event          | Class change   | Player I AM STRANGLO (76561198049007127@steam) respawned as NtfSergeant.
+2023-03-08 07:59:32.406Z | Game Event          | Class change   | RespawnManager has successfully spawned 2 players as NineTailedFox!
+2023-03-08 08:00:41.548Z | Kill                | Class change   | I AM STRANGLO (76561198049007127@steam), playing as Nine-Tailed Fox Sergeant, has been killed by [FERNO] (76561198040779291@steam) playing as: SCP-049. Specific death reason: Died to a heart-attack forced by SCP-049 ([FERNO])..
+2023-03-08 08:02:15.391Z | Kill                | Class change   | Asmosnos (76561198129048837@steam), playing as Nine-Tailed Fox Captain, has been killed by Affle (76561198027561465@steam) playing as: SCP-173. Specific death reason: Died to SCP (Affle, Scp173).
+2023-03-08 08:03:18.713Z | Remote Admin        | Administrative | Cake_ (76561198059487799@steam) gave SCP1576 to Cake_ (76561198059487799@steam).
+2023-03-08 08:03:42.746Z | Kill                | Class change   | Cole (76561198069178724@steam), playing as Nine-Tailed Fox Captain, has been killed by Affle (76561198027561465@steam) playing as: SCP-173. Specific death reason: Died to SCP (Affle, Scp173).
+2023-03-08 08:03:53.940Z | Game Event          | Class change   | Player Asmosnos (76561198129048837@steam) respawned as ChaosRifleman.
+2023-03-08 08:03:53.943Z | Game Event          | Class change   | Player I AM STRANGLO (76561198049007127@steam) respawned as ChaosRifleman.
+2023-03-08 08:03:53.945Z | Game Event          | Class change   | Player Cole (76561198069178724@steam) respawned as ChaosRifleman.
+2023-03-08 08:03:53.945Z | Game Event          | Class change   | RespawnManager has successfully spawned 3 players as ChaosInsurgency!
+2023-03-08 08:04:40.540Z | Kill                | Class change   | Voidpuddle (76561198057006321@steam), playing as Scientist, has been killed by [FERNO] (76561198040779291@steam) playing as: SCP-049. Specific death reason: Died to a heart-attack forced by SCP-049 ([FERNO])..
+2023-03-08 08:06:16.184Z | Kill                | Class change   | I AM STRANGLO (76561198049007127@steam), playing as Chaos Insurgency Rifleman, has been killed by [FERNO] (76561198040779291@steam) playing as: SCP-049. Specific death reason: Killed directly by SCP-049 ([FERNO])..
+2023-03-08 08:06:53.717Z | Kill                | Class change   | Cake_ (76561198059487799@steam), playing as Facility Guard, has been killed by Affle (76561198027561465@steam) playing as: SCP-173. Specific death reason: Died to SCP (Affle, Scp173).
+2023-03-08 08:06:56.251Z | Game Event          | Logger         | Round finished! Anomalies: 5 | Chaos: 2 | Facility Forces: 0 | D escaped percentage: 0 | S escaped percentage: : 0
+2023-03-08 08:07:08.462Z | Connection update   | Networking     | Asmosnos 76561198129048837@steam disconnected from IP address 68.59.76.46. Last class: ChaosRifleman (Chaos Insurgency Rifleman)
+2023-03-08 08:07:08.484Z | Connection update   | Networking     | Voidpuddle 76561198057006321@steam disconnected from IP address 73.66.121.218. Last class: Scp0492 (SCP-049-2)
+2023-03-08 08:07:08.490Z | Connection update   | Networking     | I AM STRANGLO 76561198049007127@steam disconnected from IP address 65.99.39.41. Last class: Scp0492 (SCP-049-2)
+2023-03-08 08:07:08.556Z | Connection update   | Networking     | SpectaKoo 76561198170133703@steam disconnected from IP address 134.114.223.254. Last class: Scp0492 (SCP-049-2)
+2023-03-08 08:07:08.558Z | Connection update   | Networking     | [FERNO] 76561198040779291@steam disconnected from IP address 185.216.201.36. Last class: Scp049 (SCP-049)
+2023-03-08 08:07:08.591Z | Connection update   | Networking     | Cake_ 76561198059487799@steam disconnected from IP address 76.144.31.151. Last class: Spectator (Spectator)
+2023-03-08 08:07:08.605Z | Connection update   | Networking     | Cole 76561198069178724@steam disconnected from IP address 73.220.221.251. Last class: ChaosRifleman (Chaos Insurgency Rifleman)
+2023-03-08 08:07:08.663Z | Connection update   | Networking     | Affle 76561198027561465@steam disconnected from IP address 162.157.85.208. Last class: Scp173 (SCP-173)

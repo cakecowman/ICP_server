@@ -1,0 +1,7 @@
+2023-03-08 02:27:08.434Z | Internal            | Logger         | Started logging. Game version: 12.0.2, private beta: NO.
+2023-03-08 02:27:28.682Z | Connection update   | Networking     | 76561198059487799@steam preauthenticated from endpoint 76.144.31.151:57178.
+2023-03-08 02:27:36.266Z | Connection update   | Networking     | 76561198059487799@steam authenticated from endpoint 76.144.31.151:57178. Player ID assigned: 2. Auth token serial number: 4wzd/CwTsdWnF2ug
+2023-03-08 02:27:36.333Z | Connection update   | Networking     | Nickname of 76561198059487799@steam is now Cake_.
+2023-03-08 02:27:36.350Z | Connection update   | Permissions    | Cake_ (76561198059487799@steam) has been assigned to group SERVER OWNER.
+2023-03-08 02:27:47.434Z | Remote Admin        | Administrative | Cake_ (76561198059487799@steam) forced round restart.
+2023-03-08 02:27:48.237Z | Connection update   | Networking     | Cake_ 76561198059487799@steam disconnected from IP address 76.144.31.151. Last class: None (None)

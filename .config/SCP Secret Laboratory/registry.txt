@@ -1,0 +1,4 @@
+06AudioSettings_Master::-%(|::1
+06AudioSettings_Effects::-%(|::0.75
+06AudioSettings_MenuMusic::-%(|::0.5
+06AudioSettings_VoiceChat::-%(|::0.8

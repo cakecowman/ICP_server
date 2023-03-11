@@ -1,0 +1,14 @@
+# Whether or not EXILED is enabled on this server.
+is_enabled: true
+# Whether or not debug messages should be shown.
+debug: false
+# Indicates whether outdated Exiled should be loaded or not. It could cause issues when it's true
+should_load_outdated_exiled: false
+# Indicates whether outdated plugins should be loaded or not
+should_load_outdated_plugins: true
+# The Exiled directory path from which plugins will be loaded
+exiled_directory_path: /home/scpserver/.config/EXILED
+# The working environment type (Development, Testing, Production, Ptb, ProductionDebug)
+environment: Production
+# The config files distribution type (Default, Separated)
+config_type: Default

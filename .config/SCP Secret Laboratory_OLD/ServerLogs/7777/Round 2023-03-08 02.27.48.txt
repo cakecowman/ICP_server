@@ -1,0 +1,19 @@
+2023-03-08 02:27:48.823Z | Internal            | Logger         | Started logging. Game version: 12.0.2, private beta: NO.
+2023-03-08 02:27:58.721Z | Connection update   | Networking     | 76561198059487799@steam preauthenticated from endpoint 76.144.31.151:49665.
+2023-03-08 02:28:07.783Z | Connection update   | Networking     | 76561198059487799@steam authenticated from endpoint 76.144.31.151:49665. Player ID assigned: 4. Auth token serial number: /ysP7q14NTLaKqXi
+2023-03-08 02:28:07.832Z | Connection update   | Networking     | Nickname of 76561198059487799@steam is now Cake_.
+2023-03-08 02:28:07.835Z | Connection update   | Permissions    | Cake_ (76561198059487799@steam) has been assigned to group SERVER OWNER.
+2023-03-08 02:33:31.886Z | Kill                | Class change   | Cake_ (76561198059487799@steam), playing as None, has died. Specific death reason: Unknown cause of death..
+2023-03-08 02:33:31.908Z | Connection update   | Networking     | Cake_ 76561198059487799@steam disconnected from IP address 76.144.31.151. Last class: Spectator (Spectator)
+2023-03-08 02:37:12.458Z | Connection update   | Networking     | 76561198059487799@steam preauthenticated from endpoint 76.144.31.151:56950.
+2023-03-08 02:37:18.951Z | Connection update   | Networking     | 76561198059487799@steam authenticated from endpoint 76.144.31.151:56950. Player ID assigned: 5. Auth token serial number: K55RIZA17gfW0mFF
+2023-03-08 02:37:19.012Z | Connection update   | Networking     | Nickname of 76561198059487799@steam is now Cake_.
+2023-03-08 02:37:19.015Z | Connection update   | Permissions    | Cake_ (76561198059487799@steam) has been assigned to group SERVER OWNER.
+2023-03-08 02:38:27.558Z | Remote Admin        | Administrative | Cake_ (76561198059487799@steam) enabled round lock.
+2023-03-08 02:38:27.891Z | Remote Admin        | Administrative | Cake_ (76561198059487799@steam) enabled lobby lock.
+2023-03-08 02:38:28.541Z | Remote Admin        | Administrative | Cake_ (76561198059487799@steam) disabled lobby lock.
+2023-03-08 02:38:29.476Z | Game Event          | Logger         | Round has been started.
+2023-03-08 02:38:29.476Z | Remote Admin        | Administrative | Cake_ (76561198059487799@steam) forced round start.
+2023-03-08 02:38:41.362Z | Remote Admin        | Administrative | Cake_ (76561198059487799@steam) gave ParticleDisruptor to Cake_ (76561198059487799@steam).
+2023-03-08 02:40:09.995Z | Remote Admin        | Administrative | Cake_ (76561198059487799@steam) forced round restart.
+2023-03-08 02:40:10.749Z | Connection update   | Networking     | Cake_ 76561198059487799@steam disconnected from IP address 76.144.31.151. Last class: ClassD (Class-D Personnel)
