@@ -13,8 +13,7 @@ admin:
   inheritance:
     - moderator
   permissions:
-    - testplugin.admin
-    - testplugin.*
+    - .*
 
 moderator:
   inheritance: [ ]
