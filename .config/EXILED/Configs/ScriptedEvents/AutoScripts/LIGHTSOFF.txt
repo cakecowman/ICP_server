@@ -1,0 +1,33 @@
+#This has to be enabled in Autoloop
+
+#Chance for the script to run (33%) 
+IF {CHANCE} < 0.33 
+
+#Variable time delay for script pass/continuation
+
+WAITSEC ( 150 + (150 * {CHANCE}) + (150 * {CHANCE}) + (150 * {CHANCE}) + (150 * {CHANCE}) + (150 * {CHANCE}))
+CLEARCASSIE
+WAITUNTIL {!CASSIESPEAKING}
+SILENTCASSIE .G2 Facility wide .G4 power failure .G2
+WAITSEC 5
+
+#Lights off, tesla off
+SAVEVARIABLE BLACKOUTRANDOM 10 + (20 * {CHANCE})
+DISABLE TESLAS
+LIGHTSOFF BLACKOUTRANDOM 
+DOOR LOCK * BLACKOUTRANDOM
+WAITSEC BLACKOUTRANDOM
+DELVARIABLE BLACKOUTRANDOM
+
+#Emergency Light enabled, doors operational
+SILENTCASSIE Initializing .G3 emergency power generators .G6
+LIGHTCOLOR * 135 41 41
+
+#Recommended to be 20 + (20 * {CHANCE}) + (20 * {CHANCE})
+WAITSEC 20 + (20 * {CHANCE}) + (20 * {CHANCE})
+LIGHTSOFF * 1
+
+#Restore lights, Tesla Online
+SILENTCASSIE Facility .G3 power back online
+ENABLE TESLAS
+RESETLIGHTCOLOR *
