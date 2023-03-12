@@ -47,7 +47,7 @@ CommonUtilities:
   # The color to use for lights while the warhead is active.
   warhead_color:
     r: 1
-    g: 0.2
+    g: 0.6
     b: 0.2
     a: 1
   # The maximum time, in seconds, that a player can be AFK before being kicked. Set to -1 to disable AFK system.
@@ -58,58 +58,58 @@ CommonUtilities:
   - Spectator
   - Tutorial
   # The list of starting items for roles. ItemName is the item to give them, and Chance is the percent chance of them spawning with it, and Group allows you to restrict the item to only players with certain RA groups (Leave this as 'none' to allow all players to get the item). You can specify the same item multiple times.
-#  starting_inventories:
-#    ClassD:
-#      slot1:
-#      - item_name: KeycardJanitor
-#        chance: 10
-#        group: none
-#      - item_name: Coin
-#        chance: 100
-#        group: none
-#      slot2:
-#      - item_name: Flashlight
-#        chance: 100
-#        group: none
-#      slot3: []
-#      slot4: []
-#      slot5: []
-#      slot6: []
-#      slot7: []
-#      slot8: []
-#      ammo:
-#      - type: Ammo556x45
-#        amount: 200
-#        group: none
+  starting_inventories:
+    ClassD:
+      slot1:
+      - item_name: KeycardJanitor
+        chance: 0
+        group: none
+      - item_name: Coin
+        chance: 0
+        group: none
+      slot2:
+      - item_name: Flashlight
+        chance: 0
+        group: none
+      slot3: []
+      slot4: []
+      slot5: []
+      slot6: []
+      slot7: []
+      slot8: []
+      ammo:
+      - type: Ammo556x45
+        amount: 0
+        group: none
   # The list of custom 914 recipies. Original is the item being upgraded, New is the item to upgrade to, and Chance is the percent chance of the upgrade happening. You can specify multiple upgrade choices for the same item.
-#  scp914_item_changes:
-#    Rough:
-#    - original: KeycardO5
-#      new: MicroHID
-#      chance: 50
+  scp914_item_changes:
+    Rough:
+    - original: KeycardO5
+      new: MicroHID
+      chance: 0
   # The list of custom 914 recipies for roles. Original is the role to be changed, New is the new role to assign, Chance is the % chance of the upgrade occuring.
   scp914_class_changes:
     Rough:
-    - original: Unspecified
+    - original: ClassD
       new: Spectator
-      chance: 100
+      chance: 0
       keep_inventory: true
   # The list of 914 teleport settings. Note that if you set "zone" to anything other than Unspecified, it will always select a random room from that zone, instead of the room type defined.
-#  scp914_teleport_chances:
-#    Rough:
-#    - zone: Unspecified
-#      room: LczClassDSpawn
-#      offset:
-#        x: 0
-#        y: 0
-#        z: 0
-#      chance: 100
-#      damage: 0
+  scp914_teleport_chances:
+    Rough:
+    - zone: Unspecified
+      room: LczClassDSpawn
+      offset:
+        x: 0
+        y: 0
+        z: 0
+      chance: 0
+      damage: 0
   # A dictionary of random effects to apply to players when going through 914 on certain settings.
   scp914_effect_chances:
     Rough:
     - effect: AmnesiaVision
-      chance: 100
+      chance: 0
       duration: 0
   # Determines if 914 effects are exclusive, meaning only one can be applied each time a player is processed by 914.
   scp914_effects_exclusivity: false
