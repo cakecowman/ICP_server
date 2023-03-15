@@ -82,18 +82,6 @@ CommonUtilities:
         amount: 0
         group: none
   # The list of custom 914 recipies. Original is the item being upgraded, New is the item to upgrade to, and Chance is the percent chance of the upgrade happening. You can specify multiple upgrade choices for the same item.
-  # KeycardJanitor                0      Keycard
-  # KeycardScientist              1      Keycard
-  # KeycardResearchCoordinator    2      Keycard
-  # KeycardZoneManager            3      Keycard
-  # KeycardGuard                  4      Keycard
-  # KeycardNTFOfficer             5      Keycard
-  # KeycardContainmentEngineer    6      Keycard     
-  # KeycardNTFLieutenant          7      Keycard
-  # KeycardNTFCommander           8      Keycard
-  # KeycardFacilityManager        9      Keycard
-  # KeycardChaosInsurgency       10      Keycard
-  # KeycardO5                    11      Keycard
   scp914_item_changes:
     Rough:
     - original: KeycardNTFLieutenant
@@ -118,14 +106,14 @@ CommonUtilities:
     - original: GunRevolver
       new: GunCOM18
       chance: 100
-    - original: GunShotgun 
-      new: GunRevolver 
+    - original: GunShotgun
+      new: GunRevolver
       chance: 100
-    - original: ParticleDisruptor 
-      new: ParticleDisruptor 
+    - original: ParticleDisruptor
+      new: ParticleDisruptor
       chance: 50
-    - original: ParticleDisruptor 
-      new: None 
+    - original: ParticleDisruptor
+      new: None
       chance: 50
     OneToOne:
     - original: KeycardZoneManager
@@ -137,8 +125,8 @@ CommonUtilities:
     - original: KeycardO5
       new: KeycardNTFCommander
       chance: 100
-    - original: ParticleDisruptor 
-      new: ParticleDisruptor 
+    - original: ParticleDisruptor
+      new: ParticleDisruptor
       chance: 100
     Fine:
     - original: KeycardContainmentEngineer
@@ -292,31 +280,291 @@ CommonUtilities:
     - original: GrenadeFlash
       new: SCP2176
       chance: 25
-  
   # The list of custom 914 recipies for roles. Original is the role to be changed, New is the new role to assign, Chance is the % chance of the upgrade occuring.
   scp914_class_changes:
     Rough:
+    - original: Scp173
+      new: Spectator
+      chance: 100
+      keep_inventory: true
+    - original: Scp106
+      new: Spectator
+      chance: 100
+      keep_inventory: true
+    - original: Scp049
+      new: Spectator
+      chance: 100
+      keep_inventory: true
+    - original: Scp096
+      new: Spectator
+      chance: 100
+      keep_inventory: true
+    - original: Scp0492
+      new: Spectator
+      chance: 100
+      keep_inventory: true
+    - original: Scp939
+      new: Spectator
+      chance: 100
+      keep_inventory: true
+    - original: NtfSpecialist
+      new: Spectator
+      chance: 100
+      keep_inventory: true
+    - original: NtfSergeant
+      new: Spectator
+      chance: 100
+      keep_inventory: true
+    - original: NtfCaptain
+      new: Spectator
+      chance: 100
+      keep_inventory: true
+    - original: NtfPrivate
+      new: Spectator
+      chance: 100
+      keep_inventory: true
+    - original: FacilityGuard
+      new: Spectator
+      chance: 100
+      keep_inventory: true
+    - original: ChaosConscript
+      new: Spectator
+      chance: 100
+      keep_inventory: true
+    - original: ChaosRifleman
+      new: Spectator
+      chance: 100
+      keep_inventory: true
+    - original: ChaosRepressor
+      new: Spectator
+      chance: 100
+      keep_inventory: true
+    - original: ChaosMarauder
+      new: Spectator
+      chance: 100
+      keep_inventory: true
+    - original: Scientist
+      new: Spectator
+      chance: 100
+      keep_inventory: true
     - original: ClassD
       new: Spectator
-      chance: 0
+      chance: 100
+      keep_inventory: true
+    Coarse:
+    - original: Scp173
+      new: Spectator
+      chance: 25
+      keep_inventory: true
+    - original: Scp106
+      new: Spectator
+      chance: 25
+      keep_inventory: true
+    - original: Scp049
+      new: Spectator
+      chance: 25
+      keep_inventory: true
+    - original: Scp096
+      new: Spectator
+      chance: 25
+      keep_inventory: true
+    - original: Scp0492
+      new: Spectator
+      chance: 25
+      keep_inventory: true
+    - original: Scp939
+      new: Spectator
+      chance: 25
+      keep_inventory: true
+    - original: NtfSpecialist
+      new: Spectator
+      chance: 25
+      keep_inventory: true
+    - original: NtfSergeant
+      new: Spectator
+      chance: 25
+      keep_inventory: true
+    - original: NtfCaptain
+      new: Spectator
+      chance: 25
+      keep_inventory: true
+    - original: NtfPrivate
+      new: Spectator
+      chance: 25
+      keep_inventory: true
+    - original: FacilityGuard
+      new: Spectator
+      chance: 25
+      keep_inventory: true
+    - original: ChaosConscript
+      new: Spectator
+      chance: 25
+      keep_inventory: true
+    - original: ChaosRifleman
+      new: Spectator
+      chance: 25
+      keep_inventory: true
+    - original: ChaosRepressor
+      new: Spectator
+      chance: 25
+      keep_inventory: true
+    - original: ChaosMarauder
+      new: Spectator
+      chance: 25
+      keep_inventory: true
+    - original: Scientist
+      new: Spectator
+      chance: 25
+      keep_inventory: true
+    - original: ClassD
+      new: Spectator
+      chance: 25
+      keep_inventory: true
+    VeryFine:
+    - original: Scp173
+      new: Spectator
+      chance: 25
+      keep_inventory: true
+    - original: Scp106
+      new: Spectator
+      chance: 25
+      keep_inventory: true
+    - original: Scp049
+      new: Spectator
+      chance: 25
+      keep_inventory: true
+    - original: Scp096
+      new: Spectator
+      chance: 25
+      keep_inventory: true
+    - original: Scp0492
+      new: Spectator
+      chance: 25
+      keep_inventory: true
+    - original: Scp939
+      new: Spectator
+      chance: 25
+      keep_inventory: true
+    - original: NtfSpecialist
+      new: Spectator
+      chance: 25
+      keep_inventory: true
+    - original: NtfSergeant
+      new: Spectator
+      chance: 25
+      keep_inventory: true
+    - original: NtfCaptain
+      new: Spectator
+      chance: 25
+      keep_inventory: true
+    - original: NtfPrivate
+      new: Spectator
+      chance: 25
+      keep_inventory: true
+    - original: FacilityGuard
+      new: Spectator
+      chance: 25
+      keep_inventory: true
+    - original: ChaosConscript
+      new: Spectator
+      chance: 25
+      keep_inventory: true
+    - original: ChaosRifleman
+      new: Spectator
+      chance: 25
+      keep_inventory: true
+    - original: ChaosRepressor
+      new: Spectator
+      chance: 25
+      keep_inventory: true
+    - original: ChaosMarauder
+      new: Spectator
+      chance: 25
+      keep_inventory: true
+    - original: Scientist
+      new: Spectator
+      chance: 25
+      keep_inventory: true
+    - original: ClassD
+      new: Spectator
+      chance: 25
       keep_inventory: true
   # The list of 914 teleport settings. Note that if you set "zone" to anything other than Unspecified, it will always select a random room from that zone, instead of the room type defined.
   scp914_teleport_chances:
-    Rough:
+    Coarse:
     - zone: Unspecified
-      room: LczClassDSpawn
+      room: Pocket
       offset:
         x: 0
         y: 0
         z: 0
-      chance: 0
+      chance: 75
       damage: 0
+    OneToOne:
+    - zone: Unspecified
+      room: Lcz914
+      offset:
+        x: 0
+        y: 0
+        z: 0
+      chance: 25
+      damage: 15
+    - zone: LightContainment
+      room: Unknown
+      offset:
+        x: 0
+        y: 0
+        z: 0
+      chance: 75
+      damage: 25
+    Fine:
+    - zone: Unspecified
+      room: Lcz914
+      offset:
+        x: 0
+        y: 0
+        z: 0
+      chance: 40
+      damage: 30
+    - zone: LightContainment
+      room: Unknown
+      offset:
+        x: 0
+        y: 0
+        z: 0
+      chance: 35
+      damage: 25
+    - zone: HeavyContainment
+      room: Unknown
+      offset:
+        x: 0
+        y: 0
+        z: 0
+      chance: 25
+      damage: 50
+    VeryFine:
+    - zone: Unspecified
+      room: Lcz914
+      offset:
+        x: 0
+        y: 0
+        z: 0
+      chance: 40
+      damage: 50
+    - zone: Entrance
+      room: Unknown
+      offset:
+        x: 0
+        y: 0
+        z: 0
+      chance: 30
+      damage: 75
   # A dictionary of random effects to apply to players when going through 914 on certain settings.
   scp914_effect_chances:
     Rough:
     - effect: AmnesiaVision
       chance: 0
-      duration: 0
+      duration: 5
   # Determines if 914 effects are exclusive, meaning only one can be applied each time a player is processed by 914.
   scp914_effects_exclusivity: false
   # Whether or not SCPs are immune to effects gained from 914.
