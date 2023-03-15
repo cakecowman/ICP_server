@@ -25,7 +25,7 @@ CommonUtilities:
   # The amount of time (in seconds) the join message is displayed.
   join_message_duration: 10
   # The amount of time (in seconds) after the round starts, before the facilities auto-nuke will start.
-  autonuke_time: 1500
+  autonuke_time: 1800
   # Wether or not the nuke should be unable to be disabled during the auto-nuke countdown.
   autonuke_lock: true
   # The message given to all players when the auto-nuke is triggered. A duration of 2 or more will be a text message on-screen. A duration of 1 makes it a cassie announcement. A duration of 0 disables it.
@@ -87,28 +87,67 @@ CommonUtilities:
     - original: KeycardNTFLieutenant
       new: KeycardGuard
       chance: 100
+    - original: KeycardNTFLieutenant
+      new: KeycardNTFOfficer
+      chance: 0
     - original: KeycardNTFCommander
       new: KeycardNTFOfficer
       chance: 100
+    - original: KeycardNTFCommander
+      new: KeycardGuard
+      chance: 0
     - original: KeycardZoneManager
       new: None
       chance: 100
+    - original: KeycardZoneManager
+      new: KeycardJanitor
+      chance: 0
+    - original: KeycardZoneManager
+      new: KeycardScientist
+      chance: 0
     Coarse:
     - original: KeycardZoneManager
       new: KeycardJanitor
       chance: 100
+    - original: KeycardZoneManager
+      new: KeycardScientist
+      chance: 0
     - original: KeycardFacilityManager
       new: KeycardResearchCoordinator
       chance: 100
+    - original: KeycardFacilityManager
+      new: KeycardNTFCommander
+      chance: 0
     - original: KeycardO5
       new: KeycardFacilityManager
       chance: 100
+    - original: KeycardO5
+      new: KeycardContainmentEngineer
+      chance: 0
+    - original: KeycardO5
+      new: KeycardNTFCommander
+      chance: 0
     - original: GunRevolver
       new: GunCOM18
       chance: 100
+    - original: GunRevolver
+      new: GrenadeHE
+      chance: 0
     - original: GunShotgun
       new: GunRevolver
       chance: 100
+    - original: GunShotgun
+      new: GunAK
+      chance: 0
+    - original: MicroHID
+      new: ParticleDisruptor
+      chance: 100
+    - original: MicroHID
+      new: MicroHID
+      chance: 0
+    - original: MicroHID
+      new: None
+      chance: 0
     - original: ParticleDisruptor
       new: ParticleDisruptor
       chance: 50
@@ -119,76 +158,91 @@ CommonUtilities:
     - original: KeycardZoneManager
       new: KeycardScientist
       chance: 100
+    - original: KeycardZoneManager
+      new: KeycardGuard
+      chance: 0
     - original: KeycardFacilityManager
-      new: KeycardFacilityManager
+      new: KeycardContainmentEngineer
       chance: 100
+    - original: KeycardFacilityManager
+      new: KeycardChaosInsurgency
+      chance: 0
     - original: KeycardO5
       new: KeycardNTFCommander
       chance: 100
+    - original: KeycardO5
+      new: KeycardO5
+      chance: 0
     - original: ParticleDisruptor
       new: ParticleDisruptor
       chance: 100
+    - original: ParticleDisruptor
+      new: MicroHID
+      chance: 0
     Fine:
     - original: KeycardContainmentEngineer
       new: KeycardGuard
-      chance: 50
+      chance: 100
     - original: KeycardContainmentEngineer
-      new: KeycardResearchCoordinator
-      chance: 50
+      new: KeycardNTFCommander
+      chance: 0
+    - original: KeycardContainmentEngineer
+      new: KeycardO5
+      chance: 0
     - original: KeycardGuard
       new: KeycardGuard
-      chance: 50
-    - original: KeycardGuard
-      new: KeycardScientist
-      chance: 25
+      chance: 30
     - original: KeycardGuard
       new: KeycardNTFOfficer
-      chance: 25
+      chance: 70
     - original: KeycardNTFOfficer
       new: KeycardNTFOfficer
+      chance: 40
+    - original: KeycardNTFOfficer
+      new: KeycardNTFLieutenant
+      chance: 60
+    - original: KeycardNTFLieutenant
+      new: KeycardNTFLieutenant
       chance: 50
-    - original: KeycardNTFOfficer
-      new: KeycardResearchCoordinator
-      chance: 25
-    - original: KeycardNTFOfficer
-      new: KeycardNTFLieutenant
-      chance: 25
-    - original: KeycardNTFLieutenant
-      new: KeycardNTFLieutenant
-      chance: 34
-    - original: KeycardNTFLieutenant
-      new: KeycardContainmentEngineer
-      chance: 33
     - original: KeycardNTFLieutenant
       new: KeycardNTFCommander
-      chance: 33
+      chance: 50
     - original: KeycardNTFCommander
       new: KeycardNTFCommander
-      chance: 34
-    - original: KeycardNTFCommander
-      new: KeycardGuard
-      chance: 33
+      chance: 50
     - original: KeycardNTFCommander
       new: KeycardFacilityManager
-      chance: 33
+      chance: 50
+    - original: KeycardNTFCommander
+      new: KeycardO5
+      chance: 0
     - original: KeycardChaosInsurgency
       new: KeycardChaosInsurgency
-      chance: 34
-    - original: KeycardChaosInsurgency
-      new: KeycardGuard
-      chance: 33
+      chance: 50
     - original: KeycardChaosInsurgency
       new: KeycardFacilityManager
-      chance: 33
+      chance: 50
+    - original: KeycardChaosInsurgency
+      new: KeycardO5
+      chance: 0
     - original: KeycardZoneManager
       new: KeycardGuard
       chance: 100
+    - original: KeycardZoneManager
+      new: KeycardFacilityManager
+      chance: 0
     - original: KeycardFacilityManager
-      new: KeycardO5
-      chance: 30
+      new: KeycardNTFCommander
+      chance: 25
+    - original: KeycardFacilityManager
+      new: KeycardChaosInsurgency
+      chance: 25
     - original: KeycardFacilityManager
       new: None
-      chance: 70
+      chance: 50
+    - original: KeycardFacilityManager
+      new: KeycardO5
+      chance: 0
     VeryFine:
     - original: KeycardJanitor
       new: KeycardResearchCoordinator
@@ -196,36 +250,63 @@ CommonUtilities:
     - original: KeycardJanitor
       new: KeycardJanitor
       chance: 50
+    - original: KeycardJanitor
+      new: KeycardScientist
+      chance: 0
     - original: KeycardScientist
       new: KeycardContainmentEngineer
       chance: 50
     - original: KeycardScientist
       new: KeycardScientist
       chance: 50
+    - original: KeycardScientist
+      new: KeycardResearchCoordinator
+      chance: 0
     - original: KeycardContainmentEngineer
       new: KeycardNTFLieutenant
-      chance: 25
+      chance: 44
     - original: KeycardContainmentEngineer
       new: None
-      chance: 75
+      chance: 56
+    - original: KeycardContainmentEngineer
+      new: KeycardO5
+      chance: 0
     - original: KeycardGuard
       new: KeycardNTFOfficer
       chance: 75
     - original: KeycardGuard
       new: None
       chance: 25
+    - original: KeycardGuard
+      new: KeycardGuard
+      chance: 0
+    - original: KeycardGuard
+      new: KeycardNTFLieutenant
+      chance: 0
+    - original: KeycardGuard
+      new: KeycardNTFCommander
+      chance: 0
     - original: KeycardNTFOfficer
       new: KeycardNTFLieutenant
       chance: 67
     - original: KeycardNTFOfficer
       new: KeycardNTFLieutenant
       chance: 33
+    - original: KeycardNTFOfficer
+      new: KeycardNTFCommander
+      chance: 0
     - original: KeycardNTFLieutenant
       new: KeycardNTFCommander
       chance: 60
     - original: KeycardNTFLieutenant
       new: None
       chance: 40
+    - original: KeycardNTFLieutenant
+      new: KeycardNTFLieutenant
+      chance: 0
+    - original: KeycardNTFLieutenant
+      new: KeycardO5
+      chance: 0
     - original: KeycardNTFCommander
       new: KeycardO5
       chance: 50
@@ -238,12 +319,27 @@ CommonUtilities:
     - original: KeycardChaosInsurgency
       new: SCP1853
       chance: 50
+    - original: KeycardChaosInsurgency
+      new: KeycardNTFCommander
+      chance: 0
+    - original: KeycardChaosInsurgency
+      new: None
+      chance: 0
     - original: KeycardZoneManager
       new: KeycardZoneManager
-      chance: 99
+      chance: 100
     - original: KeycardZoneManager
       new: KeycardFacilityManager
-      chance: 1
+      chance: 0
+    - original: KeycardZoneManager
+      new: KeycardChaosInsurgency
+      chance: 0
+    - original: KeycardFacilityManager
+      new: KeycardO5
+      chance: 30
+    - original: KeycardFacilityManager
+      new: None
+      chance: 70
     - original: GunCOM15
       new: GunFSP9
       chance: 50
@@ -259,6 +355,21 @@ CommonUtilities:
     - original: GunRevolver
       new: None
       chance: 40
+    - original: GunRevolver
+      new: GrenadeHE
+      chance: 0
+    - original: GunRevolver
+      new: KeycardZoneManager
+      chance: 0
+    - original: GunRevolver
+      new: GunCOM15
+      chance: 0
+    - original: GunRevolver
+      new: Medkit
+      chance: 0
+    - original: GunRevolver
+      new: Painkillers
+      chance: 0
     - original: GunShotgun
       new: GunAK
       chance: 40
@@ -268,6 +379,12 @@ CommonUtilities:
     - original: GunShotgun
       new: ParticleDisruptor
       chance: 25
+    - original: GunShotgun
+      new: GunCrossvec
+      chance: 0
+    - original: GunShotgun
+      new: MicroHID
+      chance: 0
     - original: GrenadeFlash
       new: None
       chance: 25
@@ -280,6 +397,9 @@ CommonUtilities:
     - original: GrenadeFlash
       new: SCP2176
       chance: 25
+    - original: GrenadeFlash
+      new: SCP207
+      chance: 0
   # The list of custom 914 recipies for roles. Original is the role to be changed, New is the new role to assign, Chance is the % chance of the upgrade occuring.
   scp914_class_changes:
     Rough:
@@ -351,143 +471,74 @@ CommonUtilities:
       new: Spectator
       chance: 100
       keep_inventory: true
-    Coarse:
-    - original: Scp173
-      new: Spectator
-      chance: 25
-      keep_inventory: true
-    - original: Scp106
-      new: Spectator
-      chance: 25
-      keep_inventory: true
-    - original: Scp049
-      new: Spectator
-      chance: 25
-      keep_inventory: true
-    - original: Scp096
-      new: Spectator
-      chance: 25
-      keep_inventory: true
-    - original: Scp0492
-      new: Spectator
-      chance: 25
-      keep_inventory: true
-    - original: Scp939
-      new: Spectator
-      chance: 25
-      keep_inventory: true
-    - original: NtfSpecialist
-      new: Spectator
-      chance: 25
-      keep_inventory: true
-    - original: NtfSergeant
-      new: Spectator
-      chance: 25
-      keep_inventory: true
-    - original: NtfCaptain
-      new: Spectator
-      chance: 25
-      keep_inventory: true
-    - original: NtfPrivate
-      new: Spectator
-      chance: 25
-      keep_inventory: true
-    - original: FacilityGuard
-      new: Spectator
-      chance: 25
-      keep_inventory: true
-    - original: ChaosConscript
-      new: Spectator
-      chance: 25
-      keep_inventory: true
-    - original: ChaosRifleman
-      new: Spectator
-      chance: 25
-      keep_inventory: true
-    - original: ChaosRepressor
-      new: Spectator
-      chance: 25
-      keep_inventory: true
-    - original: ChaosMarauder
-      new: Spectator
-      chance: 25
-      keep_inventory: true
-    - original: Scientist
-      new: Spectator
-      chance: 25
-      keep_inventory: true
-    - original: ClassD
-      new: Spectator
-      chance: 25
-      keep_inventory: true
     VeryFine:
     - original: Scp173
       new: Spectator
-      chance: 25
+      chance: 75
       keep_inventory: true
     - original: Scp106
       new: Spectator
-      chance: 25
+      chance: 75
       keep_inventory: true
     - original: Scp049
       new: Spectator
-      chance: 25
+      chance: 75
       keep_inventory: true
     - original: Scp096
       new: Spectator
-      chance: 25
+      chance: 75
       keep_inventory: true
     - original: Scp0492
       new: Spectator
-      chance: 25
+      chance: 75
       keep_inventory: true
     - original: Scp939
       new: Spectator
-      chance: 25
+      chance: 75
       keep_inventory: true
     - original: NtfSpecialist
       new: Spectator
-      chance: 25
+      chance: 75
       keep_inventory: true
     - original: NtfSergeant
       new: Spectator
-      chance: 25
+      chance: 75
       keep_inventory: true
     - original: NtfCaptain
       new: Spectator
-      chance: 25
+      chance: 75
       keep_inventory: true
     - original: NtfPrivate
       new: Spectator
-      chance: 25
+      chance: 75
       keep_inventory: true
     - original: FacilityGuard
       new: Spectator
-      chance: 25
+      chance: 75
       keep_inventory: true
     - original: ChaosConscript
       new: Spectator
-      chance: 25
+      chance: 75
       keep_inventory: true
     - original: ChaosRifleman
       new: Spectator
-      chance: 25
+      chance: 75
       keep_inventory: true
     - original: ChaosRepressor
       new: Spectator
-      chance: 25
+      chance: 75
       keep_inventory: true
     - original: ChaosMarauder
       new: Spectator
-      chance: 25
+      chance: 75
       keep_inventory: true
     - original: Scientist
       new: Spectator
-      chance: 25
+      chance: 75
       keep_inventory: true
     - original: ClassD
       new: Spectator
-      chance: 25
+      chance: 75
       keep_inventory: true
   # The list of 914 teleport settings. Note that if you set "zone" to anything other than Unspecified, it will always select a random room from that zone, instead of the room type defined.
   scp914_teleport_chances:
@@ -498,8 +549,8 @@ CommonUtilities:
         x: 0
         y: 0
         z: 0
-      chance: 75
-      damage: 0
+      chance: 100
+      damage: 25
     OneToOne:
     - zone: Unspecified
       room: Lcz914
@@ -507,49 +558,25 @@ CommonUtilities:
         x: 0
         y: 0
         z: 0
-      chance: 25
-      damage: 15
-    - zone: LightContainment
-      room: Unknown
-      offset:
-        x: 0
-        y: 0
-        z: 0
-      chance: 75
-      damage: 25
+      chance: 100
+      damage: 10
     Fine:
-    - zone: Unspecified
-      room: Lcz914
-      offset:
-        x: 0
-        y: 0
-        z: 0
-      chance: 40
-      damage: 30
     - zone: LightContainment
       room: Unknown
       offset:
         x: 0
         y: 0
         z: 0
-      chance: 35
+      chance: 100
       damage: 25
+    VeryFine:
     - zone: HeavyContainment
       room: Unknown
       offset:
         x: 0
         y: 0
         z: 0
-      chance: 25
-      damage: 50
-    VeryFine:
-    - zone: Unspecified
-      room: Lcz914
-      offset:
-        x: 0
-        y: 0
-        z: 0
-      chance: 40
+      chance: 20
       damage: 50
     - zone: Entrance
       room: Unknown
@@ -557,14 +584,14 @@ CommonUtilities:
         x: 0
         y: 0
         z: 0
-      chance: 30
-      damage: 75
+      chance: 5
+      damage: 50
   # A dictionary of random effects to apply to players when going through 914 on certain settings.
   scp914_effect_chances:
     Rough:
     - effect: AmnesiaVision
       chance: 0
-      duration: 5
+      duration: 1
   # Determines if 914 effects are exclusive, meaning only one can be applied each time a player is processed by 914.
   scp914_effects_exclusivity: false
   # Whether or not SCPs are immune to effects gained from 914.
