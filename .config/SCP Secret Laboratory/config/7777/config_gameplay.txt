@@ -86,10 +86,10 @@ server_forced_class: -1
 map_seed: -1
 
 #Misc gameplay settings
-intercom_cooldown: 60
-intercom_max_speech_time: 30
+intercom_cooldown: 30
+intercom_max_speech_time: 60
 auto_round_restart_time: 15
-friendly_fire: false
+friendly_fire: true
 friendly_fire_multiplier: 0.5
 warhead_tminus_start_duration: 90
 lock_gates_on_countdown: true
@@ -223,7 +223,7 @@ ff_detector_round_enabled: false
 ff_detector_round_kills: 6
 ff_detector_round_damage: 500
 
-ff_detector_round_action: ban
+ff_detector_round_action: kill
 ff_detector_round_ban_time: 24h
 ff_detector_round_bankick_reason: You have been automatically banned for teamkilling.
 ff_detector_round_kill_reason: You have been automatically killed for teamkilling.
@@ -240,9 +240,9 @@ ff_detector_round_webhook_report: true
 #Per life (resets on respawn)
 ff_detector_life_enabled: false
 ff_detector_life_kills: 4
-ff_detector_life_damage: 300
+ff_detector_life_damage: 500
 
-ff_detector_life_action: ban
+ff_detector_life_action: kill
 ff_detector_life_ban_time: 24h
 ff_detector_life_bankick_reason: You have been automatically banned for teamkilling.
 ff_detector_life_kill_reason: You have been automatically killed for teamkilling.
@@ -262,7 +262,7 @@ ff_detector_window_seconds: 180
 ff_detector_window_kills: 3
 ff_detector_window_damage: 250
 
-ff_detector_window_action: ban
+ff_detector_window_action: kill
 ff_detector_window_ban_time: 16h
 ff_detector_window_bankick_reason: You have been automatically banned for teamkilling.
 ff_detector_window_kill_reason: You have been automatically killed for teamkilling.
@@ -282,7 +282,7 @@ ff_detector_spawn_window_seconds: 120
 ff_detector_spawn_kills: 2
 ff_detector_spawn_damage: 180
 
-ff_detector_spawn_action: ban
+ff_detector_spawn_action: kill
 ff_detector_spawn_ban_time: 48h
 ff_detector_spawn_bankick_reason: You have been automatically banned for teamkilling.
 ff_detector_spawn_kill_reason: You have been automatically killed for teamkilling.
