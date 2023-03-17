@@ -8,7 +8,6 @@ WAITSEC ( 150 + (150 * {CHANCE}) + (150 * {CHANCE}) + (150 * {CHANCE}) + (150 * 
 SILENTCASSIE pitch_0.25 .G3 .G3 pitch_1 FACILITY WIDE .G4 POWER FAILURE .G2
 WAITSEC 5 
 
-
 #Lights off, tesla off
 
 DISABLE TESLAS
