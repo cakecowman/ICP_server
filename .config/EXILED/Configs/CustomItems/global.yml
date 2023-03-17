@@ -1,0 +1,452 @@
+# The list of EMP grenades.
+emp_grenades:
+- id: 0
+  name: EM-119
+  weight: 1.15
+  spawn_properties:
+    limit: 1
+    dynamic_spawn_points:
+    - location: Inside173Gate
+      chance: 100
+    static_spawn_points:
+    - name: somewhere
+      chance: 50
+      position:
+        x: 100
+        y: 25
+        z: 40
+    role_spawn_points: []
+  description: This flashbang has been modified to emit a short-range EMP when it detonates. When detonated, any lights, doors, cameras and in the room, as well as all speakers in the facility, will be disabled for a short time.
+  explode_on_collision: true
+  fuse_time: 1.5
+  # Whether or not EMP grenades will open doors that are currently locked.
+  open_locked_doors: true
+  # Whether or not EMP grenades will open doors that require keycard permissions.
+  open_keycard_doors: true
+  # A list of door names that will not be opened with EMP grenades regardless of the above configs.
+  blacklisted_door_types: []
+  # Whether or not EMP grenades disable tesla gates in the rooms the affect, for their duration.
+  disable_tesla_gates: true
+  # How long the EMP effect should last on the rooms affected.
+  duration: 20
+  type: None
+  scale:
+    x: 1
+    y: 1
+    z: 1
+# The list of grenade launchers.
+grenade_launchers:
+- id: 1
+  name: GL-119
+  description: This weapon will launch grenades in the direction you are firing, instead of bullets. Requires Frag Grenades in your inventory to reload.
+  weight: 2.95
+  spawn_properties:
+    limit: 1
+    dynamic_spawn_points:
+    - location: Inside049Armory
+      chance: 50
+    - location: InsideHczArmory
+      chance: 40
+    static_spawn_points: []
+    role_spawn_points: []
+  damage: 0
+  clip_size: 1
+  # Whether or not players will need actual frag grenades in their inventory to use as ammo. If false, the weapon's base ammo type is used instead.
+  use_grenades: true
+  # The speed of grenades when they shoot out of the weapon.
+  grenade_speed: 1.5
+  # The max duration of the fuse of grenades shot from the weapon. Note, these grenades will always explode immediatly when they collide with something, but this can be used with slow-moving grenades to cause mid-air explosions.
+  fuse_time: 1
+  # Whether or not the Grenade Launcher will consider modded frag grenades as viable grenades for reloading.
+  ignore_modded_grenades: false
+  attachments: []
+  type: None
+  friendly_fire: false
+  scale:
+    x: 1
+    y: 1
+    z: 1
+# The list of implosion grenades.
+implosion_grenades:
+- id: 2
+  name: IG-119
+  description: This grenade does almost 0 damage, however it will succ nearby players towards the center of the implosion area.
+  weight: 0.65
+  spawn_properties:
+    limit: 1
+    dynamic_spawn_points:
+    - location: Inside012Locker
+      chance: 50
+    - location: InsideHczArmory
+      chance: 100
+    static_spawn_points: []
+    role_spawn_points: []
+  explode_on_collision: true
+  fuse_time: 1.5
+  # The % of normal frag grenade damage this grenade will deal to those in it's radius.
+  damage_modifier: 0.05
+  # The amount of suction ticks each grenade will generate.
+  suction_count: 90
+  # The distance each tick will move players towards the center.
+  suction_per_tick: 0.125
+  # How often each suction tick will occus. Note: Setting the tick-rate and suction-per-tick to lower numbers maks for a 'smoother' suction movement, however causes more stress on your server. Adjust accordingly.
+  suction_tick_rate: 0.025
+  # What roles will not be able to be affected by Implosion Grenades. Keeping SCP-173 on this list is highly recommended.
+  blacklisted_roles:
+  - Scp173
+  - Tutorial
+  type: None
+  scale:
+    x: 1
+    y: 1
+    z: 1
+# The list of lethal injections.
+lethal_injections:
+- id: 3
+  name: LJ-119
+  description: This is a Lethal Injection that, when used, will cause SCP-096 to immediately leave his enrage, regardless of how many targets he currently has, if you are one of his current targets. You always die when using this, even if there's no enrage to break, or you are not a target.
+  weight: 1
+  spawn_properties:
+    limit: 1
+    dynamic_spawn_points:
+    - location: Inside096
+      chance: 100
+    static_spawn_points: []
+    role_spawn_points: []
+  # Whether the Lethal Injection should always kill the user, regardless of if they stop SCP-096's enrage.
+  kill_on_fail: true
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  type: None
+# The list of lucky coins.
+lucky_coins:
+- id: 4
+  name: LC-119
+  description: This coin has magical properties when it is dropped inside of SCP-106's pocket dimension.
+  weight: 0
+  spawn_properties:
+    limit: 1
+    dynamic_spawn_points:
+    - location: Inside012Locker
+      chance: 100
+    - location: Inside173Armory
+      chance: 50
+    static_spawn_points: []
+    role_spawn_points: []
+  # How long the coin will stay spawned inside the PD.
+  duration: 2
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  type: None
+# The list of mediGuns.
+medi_guns:
+- id: 5
+  name: MG-119
+  description: A specialized weapon that fires darts filled with a special mixture of Painkillers, Antibiotics, Antiseptics and other medicines. When fires at friendly targets, they will be healed. When fired at instances of SCP-049-2, they will be slowly converted back to human form. Does nothing when fired at anyone else.
+  weight: 1.95
+  damage: 0
+  clip_size: 10
+  spawn_properties:
+    limit: 1
+    dynamic_spawn_points:
+    - location: InsideGr18
+      chance: 40
+    - location: InsideGateA
+      chance: 50
+    - location: InsideGateB
+      chance: 50
+    static_spawn_points: []
+    role_spawn_points: []
+  # Whether or not zombies can be 'cured' by this weapon.
+  heal_zombies: true
+  # Whether or not zombies who are healed will become teammates for the healer, or remain as their old class.
+  heal_zombies_team_check: true
+  # The % of damage the weapon would normally deal, that is converted into healing. 1 = 100%, 0.5 = 50%, 0.0 = 0%
+  healing_modifier: 1
+  # The amount of total 'healing' a zombie will require before being cured.
+  zombie_healing_required: 200
+  attachments: []
+  type: None
+  friendly_fire: false
+  scale:
+    x: 1
+    y: 1
+    z: 1
+# The list of Scp127s.
+scp127s:
+- id: 7
+  name: SCP-127
+  description: SCP-127 is a pistol that slowly regenerates it's ammo over time but cannot be reloaded normally.
+  weight: 1.45
+  spawn_properties:
+    limit: 1
+    dynamic_spawn_points:
+    - location: Inside173Armory
+      chance: 100
+    static_spawn_points: []
+    role_spawn_points: []
+  damage: 0
+  clip_size: 25
+  # How often ammo will be regenerated. Regeneration occurs at all times, however this timer is reset when the weapon is picked up or dropped.
+  regeneration_delay: 10
+  # The amount of ammo that will be regenerated each regeneration cycle.
+  regeneration_amount: 2
+  attachments: []
+  type: None
+  friendly_fire: false
+  scale:
+    x: 1
+    y: 1
+    z: 1
+# The list of Scp1499s.
+scp1499s:
+- id: 8
+  name: SCP-1499
+  description: The gas mask that temporarily teleports you to another dimension, when you put it on.
+  weight: 1.5
+  spawn_properties:
+    limit: 1
+    dynamic_spawn_points:
+    - location: InsideHid
+      chance: 10
+    static_spawn_points: []
+    role_spawn_points: []
+  # How long the SCP-1499 can be wore, before automaticly player takes it off. (set to 0 for no limit)
+  duration: 15
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  type: None
+# The list of sniper rifles.
+sniper_rifle:
+- id: 10
+  name: SR-119
+  description: This modified E-11 Rifle fires high-velocity anti-personnel sniper rounds.
+  weight: 3.25
+  clip_size: 1
+  spawn_properties:
+    limit: 1
+    dynamic_spawn_points:
+    - location: InsideHid
+      chance: 100
+    - location: InsideHczArmory
+      chance: 40
+    static_spawn_points: []
+    role_spawn_points: []
+  # The amount of extra damage this weapon does, as a multiplier.
+  damage_multiplier: 7.5
+  type: None
+  friendly_fire: false
+  scale:
+    x: 1
+    y: 1
+    z: 1
+# The list of tranquilizer guns.
+tranquilizer_gun:
+- id: 11
+  name: TG-119
+  description: This modifier USP fires non-lethal tranquilizing darts. Those affected will be rendered unconscious for a short duration. Unreliable against SCPs. Repeated tranquilizing of the same person will render them resistant to it's effect.
+  weight: 1.55
+  spawn_properties:
+    limit: 1
+    dynamic_spawn_points:
+    - location: InsideGr18
+      chance: 50
+    - location: Inside173Armory
+      chance: 80
+    static_spawn_points: []
+    role_spawn_points: []
+  clip_size: 2
+  damage: 0
+  # Whether or not SCPs should be resistant to tranquilizers. (Being resistant gives them a chance to not be tranquilized when shot).
+  resistant_scps: true
+  # The amount of time a successful tranquilization lasts for.
+  duration: 5
+  # Everytime a player is tranquilized, they gain a resistance to further tranquilizations, reducing the duration of future effects. This number signifies the exponential modifier used to determine how much time is removed from the effect.
+  resistance_modifier: 1.2
+  # How often the plugin should reduce the resistance amount for players, in seconds.
+  resistance_falloff_delay: 120
+  # Whether or not tranquilized targets should drop all of their items.
+  drop_items: true
+  # The percent chance an SCP will resist being tranquilized. This has no effect if ResistantScps is false.
+  scp_resist_chance: 40
+  attachments: []
+  type: None
+  friendly_fire: false
+  scale:
+    x: 1
+    y: 1
+    z: 1
+# The list of Scp714s.
+scp714s:
+- id: 12
+  name: SCP-714
+  description: The green ring that protects you from SCP-049.
+  weight: 1.15
+  spawn_properties:
+    limit: 1
+    dynamic_spawn_points:
+    - location: Inside049Armory
+      chance: 50
+    static_spawn_points: []
+    role_spawn_points: []
+  # Which roles shouldn't be able to deal damage to the player that has SCP-714 put on.
+  scp714_roles:
+  - Scp049
+  - Scp0492
+  # Which effects should be given to the player, when he will put on SCP-714.
+  scp714_effects:
+  - Asphyxiated
+  # Message shown to player, when he takes off the SCP-714.
+  take_off_message: You've taken off the ring.
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  type: None
+# The list of Anti-Memetic Pills.
+anti_memetic_pills:
+- id: 13
+  name: AM-119
+  description: Drugs that make you forget things. If you use these while you are targeted by SCP-096, you will forget what his face looks like, and thus no longer be a target.
+  weight: 1
+  spawn_properties:
+    limit: 0
+    dynamic_spawn_points:
+    - location: Inside096
+      chance: 100
+    static_spawn_points: []
+    role_spawn_points: []
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  type: None
+# The list of DeflectorSheilds.
+deflector_sheilds:
+- id: 18
+  name: Deflector shield
+  description: A deflector shield that reflects bullets back at the shooter
+  weight: 1.65
+  spawn_properties:
+    limit: 1
+    dynamic_spawn_points:
+    - location: InsideHid
+      chance: 10
+    static_spawn_points: []
+    role_spawn_points: []
+  # How long the deflector shield can be wore, before automaticly player takes it off. (set to 0 for no limit)
+  duration: 15
+  # By what will the Damage be multiplied
+  multiplier: 1
+  scale:
+    x: 1
+    y: 1
+    z: 1
+# The list of SCP-2818s.
+scp2818s:
+- id: 14
+  name: SCP-2818
+  description: When this weapon is fired, it uses the biomass of the shooter as the bullet.
+  weight: 3.95
+  # How frequently the shooter will be moved towards his target.
+  # # Note, a lower tick frequency, and lower MaxDistance will make the travel smoother, but be more stressful on your server.
+  tick_frequency: 0.00025
+  # The max distance towards the target location the shooter can be moved each tick.
+  max_distance_per_tick: 0.5
+  # Whether or not the weapon should despawn itself after it's been used.
+  despawn_after_use: false
+  spawn_properties:
+    limit: 1
+    dynamic_spawn_points:
+    - location: InsideHid
+      chance: 60
+    - location: InsideHczArmory
+      chance: 40
+    static_spawn_points: []
+    role_spawn_points: []
+  # The amount of damage the weapon deals when the projectile hits another player.
+  damage: 3.402823E+38
+  attachments: []
+  type: None
+  friendly_fire: false
+  scale:
+    x: 1
+    y: 1
+    z: 1
+# The list of C4Charges.
+c4_charges:
+- id: 15
+  name: C4-119
+  weight: 0.75
+  spawn_properties:
+    limit: 5
+    dynamic_spawn_points:
+    - location: InsideLczArmory
+      chance: 10
+    - location: InsideHczArmory
+      chance: 25
+    - location: InsideNukeArmory
+      chance: 50
+    - location: Inside049Armory
+      chance: 50
+    - location: InsideSurfaceNuke
+      chance: 100
+    static_spawn_points: []
+    role_spawn_points: []
+  description: Explosive charge that can be remotly detonated.
+  # Should C4 charge stick to walls / ceiling.
+  is_sticky: true
+  # Defines how strongly C4 will be thrown
+  throw_multiplier: 40
+  # Should C4 require a specific item to be detonated.
+  require_detonator: true
+  # The Detonator Item that will be used to detonate C4 Charges
+  detonator_item: Radio
+  # What happens with C4 charges placed by player, when he dies/leaves the game. (Remove / Detonate / Drop)
+  method_on_death: Drop
+  # Should shooting at C4 charges do something.
+  allow_shoot: true
+  # What happens with C4 charges after they are shot. (Remove / Detonate / Drop)
+  shot_method: Remove
+  # Maximum distance between C4 Charge and player to detonate.
+  max_distance: 100
+  # Time after which the C4 charge will automatically detonate.
+  fuse_time: 9999
+  scale:
+    x: 1
+    y: 1
+    z: 1
+# The list of AutoGuns.
+auto_guns:
+- id: 17
+  name: AutoGun
+  description: In one triger pull, shoot every enemy around you
+  weight: 2.35
+  spawn_properties:
+    limit: 1
+    dynamic_spawn_points:
+    - location: Inside173Armory
+      chance: 100
+    static_spawn_points: []
+    role_spawn_points: []
+  damage: 25
+  clip_size: 5
+  # If the gun can kill people on the same team
+  team_kill: true
+  # The max distance at which the auto gun can kill
+  max_distance: 100
+  # Gets or sets a value indicating whether ammo will be taken per hit(true) or per shot(false).
+  per_hit_ammo: true
+  attachments: []
+  type: None
+  friendly_fire: false
+  scale:
+    x: 1
+    y: 1
+    z: 1

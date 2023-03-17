@@ -620,6 +620,18 @@ CommonUtilities:
     NtfCaptain: 150
   # If the plugin is enabled or not.
   is_enabled: true
+custom_items:
+  # Whether or not this plugin is enabled.
+  is_enabled: true
+  # Whether or not debug messages should be displayed in the server console.
+  debug: false
+  # A list of each item and the subclasses that can spawn with it, and the % chance of them receiving it. **This is only used if Advanced Subclassing is installed!**
+  subclass_list:
+    ExampleSubclass:
+      SR-119: 100
+      SG-119: 50
+  item_config_folder: /home/scpserver/.config/EXILED/Configs/CustomItems
+  item_config_file: global.yml
 exiled_credits:
   is_enabled: true
   debug: false

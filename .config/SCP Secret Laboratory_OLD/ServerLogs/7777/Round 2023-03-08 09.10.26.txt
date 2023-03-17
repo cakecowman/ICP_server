@@ -1,0 +1,34 @@
+2023-03-08 09:10:26.893Z | Internal            | Logger         | Started logging. Game version: 12.0.2, private beta: NO.
+2023-03-08 09:10:33.294Z | Connection update   | Networking     | 76561198040779291@steam preauthenticated from endpoint 185.216.201.36:56406.
+2023-03-08 09:10:33.463Z | Connection update   | Networking     | 76561198027561465@steam preauthenticated from endpoint 162.157.85.208:49954.
+2023-03-08 09:10:33.817Z | Connection update   | Networking     | 76561198057006321@steam preauthenticated from endpoint 73.66.121.218:65174.
+2023-03-08 09:10:34.089Z | Connection update   | Networking     | 76561198049007127@steam preauthenticated from endpoint 65.99.39.41:50202.
+2023-03-08 09:10:34.614Z | Connection update   | Networking     | 76561198129048837@steam preauthenticated from endpoint 68.59.76.46:53919.
+2023-03-08 09:10:35.066Z | Connection update   | Networking     | 76561198059487799@steam preauthenticated from endpoint 76.144.31.151:64367.
+2023-03-08 09:10:39.146Z | Connection update   | Networking     | 76561198027561465@steam authenticated from endpoint 162.157.85.208:49954. Player ID assigned: 21. Auth token serial number: KFBUUJ9MdSj9eKqR
+2023-03-08 09:10:39.214Z | Connection update   | Networking     | Nickname of 76561198027561465@steam is now Affle.
+2023-03-08 09:10:40.175Z | Connection update   | Networking     | 76561198040779291@steam authenticated from endpoint 185.216.201.36:56406. Player ID assigned: 25. Auth token serial number: pjMa1FE4sD79lndT
+2023-03-08 09:10:40.276Z | Connection update   | Networking     | Nickname of 76561198040779291@steam is now [FERNO].
+2023-03-08 09:10:40.276Z | Connection update   | Networking     | Player [connId=13] (CharacterClassManager)) connected from IP 185.216.201.36 sent Do Not Track signal.
+2023-03-08 09:10:41.592Z | Kill                | Class change   | Affle (76561198027561465@steam), playing as None, has died. Specific death reason: Unknown cause of death..
+2023-03-08 09:10:41.594Z | Connection update   | Networking     | Affle 76561198027561465@steam disconnected from IP address 162.157.85.208. Last class: Spectator (Spectator)
+2023-03-08 09:10:42.014Z | Connection update   | Networking     | 76561198057006321@steam authenticated from endpoint 73.66.121.218:65174. Player ID assigned: 3. Auth token serial number: kGVYf6j/AdvQK9fL
+2023-03-08 09:10:42.081Z | Connection update   | Networking     | Nickname of 76561198057006321@steam is now Voidpuddle.
+2023-03-08 09:10:42.081Z | Connection update   | Networking     | Player [connId=1] (CharacterClassManager)) connected from IP 73.66.121.218 sent Do Not Track signal.
+2023-03-08 09:10:42.305Z | Connection update   | Networking     | 76561198049007127@steam authenticated from endpoint 65.99.39.41:50202. Player ID assigned: 1. Auth token serial number: TxLaKBaYOUJZoA9q
+2023-03-08 09:10:42.493Z | Connection update   | Networking     | Nickname of 76561198049007127@steam is now I AM STRANGLO.
+2023-03-08 09:10:42.500Z | Connection update   | Permissions    | I AM STRANGLO (76561198049007127@steam) has been assigned to group ADMIN.
+2023-03-08 09:10:43.234Z | Connection update   | Networking     | 76561198059487799@steam authenticated from endpoint 76.144.31.151:64367. Player ID assigned: 22. Auth token serial number: W3SBEgTfKHRQpysk
+2023-03-08 09:10:43.283Z | Connection update   | Networking     | Nickname of 76561198059487799@steam is now Cake_.
+2023-03-08 09:10:43.285Z | Connection update   | Permissions    | Cake_ (76561198059487799@steam) has been assigned to group SERVER OWNER.
+2023-03-08 09:10:44.639Z | Connection update   | Networking     | 76561198129048837@steam authenticated from endpoint 68.59.76.46:53919. Player ID assigned: 17. Auth token serial number: YnaZDV5i1ExzUI8V
+2023-03-08 09:10:44.757Z | Connection update   | Networking     | Nickname of 76561198129048837@steam is now Asmosnos.
+2023-03-08 09:10:44.757Z | Connection update   | Networking     | Player [connId=2] (CharacterClassManager)) connected from IP 68.59.76.46 sent Do Not Track signal.
+2023-03-08 09:10:54.162Z | Kill                | Class change   | Asmosnos (76561198129048837@steam), playing as None, has died. Specific death reason: Unknown cause of death..
+2023-03-08 09:10:54.164Z | Connection update   | Networking     | Asmosnos 76561198129048837@steam disconnected from IP address 68.59.76.46. Last class: Spectator (Spectator)
+2023-03-08 09:11:00.616Z | Remote Admin        | Administrative | Cake_ (76561198059487799@steam) enabled round lock.
+2023-03-08 09:11:02.017Z | Remote Admin        | Administrative | Cake_ (76561198059487799@steam) enabled lobby lock.
+2023-03-08 09:12:01.434Z | Kill                | Class change   | Cake_ (76561198059487799@steam), playing as None, has died. Specific death reason: Unknown cause of death..
+2023-03-08 09:12:01.436Z | Connection update   | Networking     | Cake_ 76561198059487799@steam disconnected from IP address 76.144.31.151. Last class: Spectator (Spectator)
+2023-03-08 09:12:01.451Z | Kill                | Class change   | Voidpuddle (76561198057006321@steam), playing as None, has died. Specific death reason: Unknown cause of death..
+2023-03-08 09:12:01.453Z | Connection update   | Networking     | Voidpuddle 76561198057006321@steam disconnected from IP address 73.66.121.218. Last class: Spectator (Spectator)
