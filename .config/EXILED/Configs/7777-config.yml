@@ -393,13 +393,13 @@ CommonUtilities:
       chance: 25
     - original: GrenadeFlash
       new: GrenadeHE
-      chance: 25
+      chance: 0
     - original: GrenadeFlash
       new: SCP2176
       chance: 25
     - original: GrenadeFlash
-      new: SCP207
-      chance: 0
+      new: Jailbird                     
+      chance: 25
   # The list of custom 914 recipies for roles. Original is the role to be changed, New is the new role to assign, Chance is the % chance of the upgrade occuring.
   scp914_class_changes:
     Rough:
