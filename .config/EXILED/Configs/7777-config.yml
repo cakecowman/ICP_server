@@ -1,9 +1,3 @@
-AT:
-  # Enable/Disable AdminTools.
-  is_enabled: true
-  debug: false
-  # Should the tutorial class be in God Mode? Default: true
-  god_tuts: true
 CommonUtilities:
   # Whether or not debug messages should be shown.
   debug: false
